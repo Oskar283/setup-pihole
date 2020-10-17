@@ -5,7 +5,7 @@ version: "3"
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:4.1_armhf
+    image: pihole/pihole:latest
     ports:
       - "53:53/tcp"
       - "53:53/udp"
